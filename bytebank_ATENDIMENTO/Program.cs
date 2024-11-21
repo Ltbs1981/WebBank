@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using bytebank_ATENDIMENTO.bytebank.Atendimento;
+Console.WriteLine("Boas Vindas ao ByteBank, Atendimento.");
+new ByteBankAtendimento().AtendimentoCliente();
+
+
