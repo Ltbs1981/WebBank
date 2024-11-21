@@ -1,5 +1,6 @@
 ﻿using bytebank.Modelos.ADM.SistemaInterno;
 
+
 namespace bytebank.Modelos.ADM.Funcionarios
 {
     public abstract class FuncionarioAutenticavel : Funcionario, IAutenticavel
@@ -11,9 +12,10 @@ namespace bytebank.Modelos.ADM.Funcionarios
         {
 
         }
+
         public bool Autenticar(string senha)
         {
-            return this.Senha == senha;
+            return Senha == senha;
         }
     }
 }
